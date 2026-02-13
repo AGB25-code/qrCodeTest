@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Email - Quinta do Luson</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .email-container {
+            background: white;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .content {
+            background: #f9f9f9;
+            padding: 30px;
+        }
+        .qr-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .qr-section img {
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 10px;
+            background: white;
+        }
+        .instructions {
+            background: #e8eaf6;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+            color: #777;
+            font-size: 14px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .button:hover {
+            background: #5568d3;
+        }
+        .preview-note {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-note">
+        <strong>📧 PREVIEW DO EMAIL</strong><br>
+        Este é um exemplo de como o email ficará quando enviado aos clientes.<br>
+        <small>Versão standalone - Pode ser publicada no GitHub Pages!</small>
+    </div>
+
+    <div class="email-container">
+        <div class="header">
+            <h1>🍽️ Quinta do Luson</h1>
+            <p>A sua ementa está pronta!</p>
+        </div>
+
+        <div class="content">
+            <p>Olá <strong>Cliente Teste</strong>,</p>
+
+            <p>É com grande prazer que partilhamos consigo a ementa especialmente preparada para o seu evento na <strong>Quinta do Luson</strong>.</p>
+
+            <div class="qr-section">
+                <h2 style="color: #667eea; margin-top: 0;">📱 Digitalize o QR Code</h2>
+                <p>Use a câmara do seu telemóvel para aceder à ementa completa:</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAAAklEQVR4AewaftIAABJeSURBVO3B0YkFqpYFwHWlUzBGwxDDMEaDePPgwnx7BuT07qmqf/7zXwEASmsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMr7yUNjnvCZvXqqGfPk1l49t8Y8eWGvnlfGPLm1V08lY57c2qvnNxjz5NZePbfGPHlhr55Kxjzhc3v1vNACAJTXAgCU1wIAlNcCAJTXAgCU1wIAlNcCAJTXAgCU1wIAlNcCAJT3k19ir56/asyT32DMkxf26qlkzJNX9uq5NebJC3v1fNuYJ7f26nllr54X9ur5tjFPXtir55W9ev6qMU++rQUAKK8FACivBQAorwUAKK8FACivBQAorwUAKK8FACivBQAorwUAKO8nBY158m179fwGY568sFfPrTFP+NxePZXs1XNrzJNbY57c2qvnlTFPXtir59aYJ7f26rk15kk1Y5582149lbQAAOW1AADltQAA5bUAAOW1AADltQAA5bUAAOW1AADltQAA5bUAAOX9hP839uoh2avnlTFPXtir59vGPLm1V8+tMU9+g716bo15cmvMk1t79cD/VQsAUF4LAFBeCwBQXgsAUF4LAFBeCwBQXgsAUF4LAFBeCwBQXgsAUN5PKG2vnkr26rk15smtvXpeGPPkE3v1vDDmCZ8b8+TWXj3fNubJC3v18Pe1AADltQAA5bUAAOW1AADltQAA5bUAAOW1AADltQAA5bUAAOW1AADl/aSgvXr43Jgn3zbmyV825skLe/VUMubJC2OefGKvnm/bq4fP7dXDZ1oAgPJaAIDyWgCA8loAgPJaAIDyWgCA8loAgPJaAIDyWgCA8loAgPJ+8kuMecLnxjy5tVfPrTFPbu3Vc2vMk1t79dwa8+TWXj2v7NVza8yTF8Y8ubVXz60xT27t1XNrzJNbe/V8YsyTW3v1fNuYJ7f26rk15smtvXpeGfOEd1oAgPJaAIDyWgCA8loAgPJaAIDyWgCA8loAgPJaAIDyWgCA8loAgPL++c9/hf8XxjypZK+eW2OevLBXzyfGPLm1V8+3jXlya6+eW2Oe/GV79VQy5smtvXqoqQUAKK8FACivBQAorwUAKK8FACivBQAorwUAKK8FACivBQAorwUAKK8FACjvJ3/cmCcv7NVza8yTV/bqubVXz7eNefLCXj0vjHnyypgnL+zVc2uvnr9sr55bY568MObJrb16bo15wr/GPHlhr55KWgCA8loAgPJaAIDyWgCA8loAgPJaAIDyWgCA8loAgPJaAIDyWgCA8n7y0JgnJHv13Brz5DcY8+TWXj239uq5NeYJnxvz5NZePbfGPLm1Vw//2qvn1pgnL+zVc2vMk1t79XxizJMX9uohaQEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAyvsJ/2uvnhfGPPnLxjy5tVfPrb16vm3Mk0/s1fNtY57cGvPk1l49t8Y8ubVXz60xT36DMU++ba+eF/bqeWWvnltjnrww5smtvXoqaQEAymsBAMprAQDKawEAymsBAMprAQDKawEAymsBAMprAQDKawEAyvvJQ3v13Brz5NZePbfGPPm2vXpeGfOEZMyTF/bqqWavnltjnnzbmCe39up5ZcyTW3v13Brz5NZePbfGPHlhr55bY558Yq+eF8Y8ubVXz60xT17Yq+eFFgCgvBYAoLwWAKC8FgCgvBYAoLwWAKC8FgCgvBYAoLwWAKC8FgCgvJ88NObJC2OefNuYJ7/BXj0vjHlSyV49L4x58om9em6NefLCXj239uq5NebJrb16bo158sqYJ7f26nlhr55bY57c2qvnL9ur59v26rk15sm3tQAA5bUAAOW1AADltQAA5bUAAOW1AADltQAA5bUAAOW1AADltQAA5f3kob16bo15UslePS+MefKJMU9u7dXzwl49t8Y8ubVXz7ft1fPKXj23xjyhpjFP+NeYJy/s1UPSAgCU1wIAlNcCAJTXAgCU1wIAlNcCAJTXAgCU1wIAlNcCAJTXAgCU95M/bq+eW2OeVLNXz60xT27t1fNtY57c2qvn1pgnv8FePbf26rk15smtvXpu7dXzbWOevDLmya29em7t1XNrzJNbY57c2qvn1pgnr+zVwzstAEB5LQBAeS0AQHktAEB5LQBAeS0AQHktAEB5LQBAeS0AQHktAEB5P3lozJNbe/XcGvPk1pgnL+zV88KYJ58Y8+TWXj23xjx5Ya+eF8Y8ubVXz1+2V8+3jXlSzV49t8Y8ubVXz629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" alt="QR Code da Ementa">
+                <p style="font-size: 12px; color: #777; margin-top: 10px;">
+                    Aponte a câmara do telemóvel para este código
+                </p>
+            </div>
+
+            <div class="instructions">
+                <h3 style="margin-top: 0; color: #667eea;">Como usar:</h3>
+                <ol>
+                    <li>Abra a câmara do seu telemóvel</li>
+                    <li>Aponte para o QR Code acima</li>
+                    <li>Toque na notificação que aparecer</li>
+                    <li>A ementa abrirá automaticamente no seu navegador</li>
+                </ol>
+            </div>
+
+            <p>Pode também aceder diretamente através deste link:</p>
+            <p style="text-align: center;">
+                <a href="https://willowy-monstera-25bb5b.netlify.app/ementa.html" class="button">Ver Ementa Online</a>
+            </p>
+
+            <p><strong>Nota:</strong> Esta ementa pode ser personalizada de acordo com as suas preferências e necessidades dietéticas. Não hesite em contactar-nos para qualquer ajuste.</p>
+
+            <div class="contact-info">
+                <p><strong>Contactos:</strong></p>
+                <p>
+                    📧 <a href="mailto:quinta.doluson@gmail.com">quinta.doluson@gmail.com</a><br>
+                    📞 <a href="tel:+351916051257">+351 916 051 257</a>
+                </p>
+                <p style="margin-top: 15px;">
+                    <a href="https://www.instagram.com/quintado_luson/">Instagram</a> |
+                    <a href="https://www.facebook.com/profile.php?id=100057538415971">Facebook</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Quinta do Luson - Rua 25 de Abril nº 90, Cristelo 4580-342, Paredes, Portugal</p>
+            <p style="margin-top: 10px; font-size: 12px;">
+                Este é um email automático. Por favor não responda diretamente a esta mensagem.
+            </p>
+        </div>
+    </div>
+
+    <div class="preview-note" style="margin-top: 20px;">
+        <strong>✅ Como testar:</strong><br>
+        1. Abra este ficheiro no navegador<br>
+        2. Use a câmara do telemóvel para digitalizar o QR Code<br>
+        3. Verifique se abre corretamente: <a href="https://willowy-monstera-25bb5b.netlify.app/ementa.html" target="_blank">https://willowy-monstera-25bb5b.netlify.app/ementa.html</a>
+    </div>
+</body>
+</html>
